@@ -1,6 +1,6 @@
 # AI Learning Curriculum
 
-**Goal: Become qualified for a frontier AI engineering role at Anthropic**
+**Goal: Develop frontier AI engineering skills at Anthropic's level**
 
 This is not a casual reading list. It's a rigorous 6-month program designed to build the skills needed to work on frontier AI systems, with emphasis on safety, alignment, and practical engineering.
 
@@ -37,9 +37,9 @@ ai-learn progress
 ## Structure
 
 ```
-curriculum/           # 17 learning modules across 5 phases
+curriculum/           # Learning modules across 5 phases
 projects/             # 6 portfolio projects (implementation required)
-interview-prep/       # Anthropic-specific interview preparation
+interview-prep/       # Technical interview preparation
 tracker/              # CLI habit tracker with XP and achievements
 ```
 
@@ -48,21 +48,21 @@ tracker/              # CLI habit tracker with XP and achievements
 | Phase | Focus | Modules |
 |-------|-------|---------|
 | 1 | Foundations | ML fundamentals, Transformers (implement!), Scaling laws |
-| 2 | LLM Engineering | Architectures, Training infra, Inference serving |
+| 2 | Practical Skills | Finetuning (LoRA/DPO), Evals & Benchmarks, Inference |
 | 3 | Alignment & Safety | RLHF, Constitutional AI, Interpretability |
-| 4 | Agents & Applications | Prompting, RAG, Tool use, Coding agents |
-| 5 | Mastery & Portfolio | System design, Evals, Capstone project |
+| 4 | Applications | Prompting, RAG, Agents & Tool use, Code Generation |
+| 5 | Mastery | System design, Capstone project |
 
 See [ROADMAP.md](ROADMAP.md) for the detailed 6-month path.
 
-## Why Anthropic?
+## Why Anthropic as a Benchmark?
 
-This curriculum is specifically designed for Anthropic because:
+This curriculum uses Anthropic's engineering standards as a benchmark because:
 
 1. **They value "direct evidence of ability"** — Portfolio projects > credentials
-2. **Safety-first thinking** — Phase 3 covers their core research areas
-3. **Implementation matters** — You'll build, not just read
-4. **Constitutional AI is central** — Deep understanding of their approach
+2. **Safety-first thinking** — Their core research areas define the frontier
+3. **Implementation matters** — Build, not just read
+4. **Constitutional AI is central** — Deep understanding of alignment approaches
 
 ## Success Metrics
 
@@ -70,11 +70,12 @@ By completion, you should be able to:
 
 - [ ] Explain transformer architecture at whiteboard level
 - [ ] Implement attention mechanism from memory
+- [ ] Finetune a model with LoRA and evaluate it properly
 - [ ] Discuss Constitutional AI vs RLHF tradeoffs fluently
-- [ ] Describe 3+ Anthropic papers in detail
+- [ ] Build and evaluate a coding agent on SWE-Bench
 - [ ] Have 3+ portfolio projects on GitHub
-- [ ] Write a compelling "Why Anthropic" that's specific
-- [ ] Complete ML system design interviews confidently
+- [ ] Articulate your perspective on AI safety clearly
+- [ ] Complete ML system design problems confidently
 
 ## Identity Statement
 
@@ -98,4 +99,4 @@ This is your new identity. The habit tracker, the streak counter, the XP system�
 
 ---
 
-*This curriculum was designed with the goal of qualifying for Anthropic's engineering team. It emphasizes the skills they value: deep technical understanding, safety-first thinking, and demonstrated ability through projects.*
+*This curriculum uses Anthropic's engineering standards as a benchmark. It emphasizes the skills they value: deep technical understanding, safety-first thinking, and demonstrated ability through projects.*

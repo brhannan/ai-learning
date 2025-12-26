@@ -33,7 +33,7 @@ env/
 *.swo
 
 # Data
-tracker/data/*.json
+# (Progress tracking data is synced via git)
 
 # OS
 .DS_Store
