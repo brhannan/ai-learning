@@ -1,0 +1,25 @@
+{
+  "activities": [
+    {
+      "description": "3Blue1Brown attention video",
+      "type": "paper",
+      "date": "2025-12-26",
+      "timestamp": "2025-12-26T13:17:00.259000"
+    },
+    {
+      "description": "The Illustrated Transformer",
+      "type": "paper",
+      "date": "2026-01-13",
+      "timestamp": "2026-01-13T00:00:00.000000"
+    }
+  ],
+  "xp": 75,
+  "achievements": [
+    "📖 First Steps"
+  ],
+  "streak_data": {
+    "current": 1,
+    "longest": 1,
+    "last_activity_date": "2026-01-13"
+  }
+}
