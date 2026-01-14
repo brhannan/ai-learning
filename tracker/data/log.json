@@ -11,15 +11,27 @@
       "type": "paper",
       "date": "2026-01-13",
       "timestamp": "2026-01-13T00:00:00.000000"
+    },
+    {
+      "description": "Attention Is All You Need",
+      "type": "paper",
+      "date": "2026-01-14",
+      "timestamp": "2026-01-14T14:42:45.194123"
+    },
+    {
+      "description": "3Blue1Brown Attention in Transformers",
+      "type": "video",
+      "date": "2026-01-14",
+      "timestamp": "2026-01-14T14:48:36.103485"
     }
   ],
-  "xp": 75,
+  "xp": 155,
   "achievements": [
-    "📖 First Steps"
+    "\ud83d\udcd6 First Steps"
   ],
   "streak_data": {
-    "current": 1,
-    "longest": 1,
-    "last_activity_date": "2026-01-13"
+    "current": 2,
+    "longest": 2,
+    "last_activity_date": "2026-01-14"
   }
 }

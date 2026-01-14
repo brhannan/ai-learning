@@ -7,7 +7,7 @@ name = "ai-learn"
 version = "0.1.0"
 description = "CLI habit tracker for AI learning curriculum"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.9"
 license = "MIT"
 authors = [
     { name = "AI Learner" }
