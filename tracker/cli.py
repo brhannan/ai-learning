@@ -33,6 +33,25 @@ def get_tracker() -> HabitTracker:
     return HabitTracker(DATA_FILE)
 
 
+def get_uncompleted_suggestions(tracker: HabitTracker, suggestions: list[str]) -> list[str]:
+    """Filter out suggestions that have already been completed."""
+    completed_descriptions = {a["description"].lower() for a in tracker.data["activities"]}
+
+    uncompleted = []
+    for suggestion in suggestions:
+        # Extract the core name from suggestion (remove parenthetical type annotations)
+        # e.g. "The Illustrated Transformer (blog)" -> "the illustrated transformer"
+        core_name = suggestion.split("(")[0].strip().lower()
+
+        # Check if any completed activity matches this suggestion
+        is_completed = any(core_name in desc or desc in core_name for desc in completed_descriptions)
+
+        if not is_completed:
+            uncompleted.append(suggestion)
+
+    return uncompleted
+
+
 @app.command()
 def log(
     description: str = typer.Argument(..., help="What you read/completed"),
@@ -215,14 +234,23 @@ def next():
     }
 
     phase, items = suggestions.get(level, suggestions[1])
+    uncompleted = get_uncompleted_suggestions(tracker, items)
 
     console.print()
-    console.print(Panel(
-        f"[bold cyan]{phase}[/bold cyan]\n\n" +
-        "\n".join(f"  → {item}" for item in items),
-        title="📖 Suggested Next Steps",
-        border_style="blue",
-    ))
+    if uncompleted:
+        console.print(Panel(
+            f"[bold cyan]{phase}[/bold cyan]\n\n" +
+            "\n".join(f"  → {item}" for item in uncompleted),
+            title="📖 Suggested Next Steps",
+            border_style="blue",
+        ))
+    else:
+        console.print(Panel(
+            f"[bold green]✓ All {phase} suggestions completed![/bold green]\n\n"
+            "Level up to unlock more suggestions.",
+            title="📖 Suggested Next Steps",
+            border_style="green",
+        ))
 
 
 @app.command()

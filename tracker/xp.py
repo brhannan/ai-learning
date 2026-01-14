@@ -1,5 +1,7 @@
 """XP and leveling system for AI learning."""
 
+from typing import Optional
+
 from .habits import HabitTracker
 
 
@@ -59,7 +61,7 @@ class XPSystem:
             return "Master"
         return self.LEVELS[level - 1][1]
 
-    def get_xp_for_level(self, level: int) -> int | None:
+    def get_xp_for_level(self, level: int) -> Optional[int]:
         """Get the XP threshold for a level."""
         if level < 1 or level > len(self.LEVELS):
             return None
