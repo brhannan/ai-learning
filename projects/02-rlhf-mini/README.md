@@ -14,7 +14,7 @@ Implement a minimal RLHF pipeline: train a reward model on preferences, then fin
 - **Core alignment technique**: RLHF is how Claude and GPT are trained
 - **Anthropic relevance**: Deep understanding of what CAI builds upon
 - **Rare skill**: Few people have actually implemented RLHF
-- **Interview differentiator**: "I built an RLHF pipeline" stands out
+- **Quiz differentiator**: "I built an RLHF pipeline" stands out
 
 ## Objectives
 
@@ -125,7 +125,7 @@ See `starter/` directory for:
 - Analyze reward model internals
 - Try different reward model architectures
 
-## Interview Prep
+## Quiz Prep
 
 After completing this project, you should be able to:
 - Explain the three phases of RLHF

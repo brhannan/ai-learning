@@ -1,10 +1,10 @@
-# Interview Preparation
+# Quiz Preparation
 
-This section helps you prepare for Anthropic-style technical interviews.
+This section helps you prepare for Anthropic-style technical quizzes.
 
-## Interview Structure (Based on Research)
+## Quiz Structure (Based on Research)
 
-Anthropic interviews typically include:
+Anthropic quizzes typically include:
 
 1. **Initial Screen**: Recruiter call, basic background
 2. **Technical Screen**: Coding + ML fundamentals
@@ -19,9 +19,9 @@ Anthropic interviews typically include:
 - [Behavioral](behavioral/) - STAR stories, "Why Anthropic"
 - [LeetCode ML](leetcode-ml/) - Curated coding problems
 
-## Key Anthropic Interview Tips
+## Key Anthropic Quiz Tips
 
-Based on interview guides and job postings:
+Based on quiz guides and job postings:
 
 ### They Value
 - **Direct evidence of ability** over credentials
@@ -57,5 +57,5 @@ Make sure you have:
 ## Resources
 
 - [Anthropic Careers](https://www.anthropic.com/careers)
-- [Interview Query - Anthropic Guide](https://www.interviewquery.com/interview-guides/anthropic)
+- [Anthropic Guide on Interview Query](https://www.interviewquery.com/interview-guides/anthropic)
 - [Anthropic Research Blog](https://www.anthropic.com/research)

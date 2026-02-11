@@ -228,7 +228,7 @@ def next():
         ]),
         10: ("Complete!", [
             "Polish portfolio",
-            "Practice interviews",
+            "Practice quizzes",
             "Apply to Anthropic!",
         ]),
     }

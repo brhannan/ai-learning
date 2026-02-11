@@ -1,4 +1,4 @@
-# Behavioral Interview Preparation
+# Behavioral Quiz Preparation
 
 Anthropic cares deeply about culture fit, values, and how you think about AI safety.
 
@@ -159,10 +159,10 @@ Prepare 3-5 thoughtful questions:
 
 ## Final Checklist
 
-Before the interview:
+Before the quiz:
 - [ ] Prepared 5+ STAR stories
 - [ ] Written "Why Anthropic" essay
-- [ ] Researched your interviewers
+- [ ] Researched the quiz panel
 - [ ] Read 3+ recent Anthropic blog posts
 - [ ] Prepared 5+ questions to ask
 - [ ] Practiced answers aloud
