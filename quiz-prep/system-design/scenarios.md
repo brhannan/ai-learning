@@ -165,4 +165,4 @@ Then review:
 - Did you cover all major components?
 - Did you discuss tradeoffs?
 - Did you consider safety?
-- Could you explain this in an interview?
+- Could you explain this in a quiz setting?

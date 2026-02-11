@@ -148,7 +148,7 @@ AgentFramework/
 - Streaming output
 - Web UI for interaction
 
-## Interview Prep
+## Quiz Prep
 
 After completing this project, you should be able to:
 - Explain the ReAct pattern in detail

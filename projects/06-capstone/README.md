@@ -7,7 +7,7 @@
 
 ## Overview
 
-This is your major portfolio piece. Choose a substantial project that demonstrates your skills and interests. This should be something you're proud to show in interviews.
+This is your major portfolio piece. Choose a substantial project that demonstrates your skills and interests. This should be something you're proud to show in technical discussions.
 
 ## Why This Project Matters
 
@@ -142,9 +142,9 @@ Before starting, write a 1-page proposal:
 - "I discovered that attention heads in layer 5 specialize in..."
 - "I built an agent that can X with 90% accuracy on my eval suite"
 
-## Interview Usage
+## Quiz Usage
 
-In interviews, you'll likely be asked:
+In quizzes, you'll likely be asked:
 - "Tell me about a project you're proud of"
 - "What's the most technically challenging thing you've built?"
 - "Describe a research project you've done"

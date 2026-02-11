@@ -39,7 +39,7 @@ ai-learn progress
 ```
 curriculum/           # Learning modules across 5 phases
 projects/             # 6 portfolio projects (implementation required)
-interview-prep/       # Technical interview preparation
+quiz-prep/            # Technical quiz preparation
 tracker/              # CLI habit tracker with XP and achievements
 ```
 

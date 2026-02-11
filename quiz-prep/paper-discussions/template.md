@@ -1,6 +1,6 @@
 # Paper Discussion Template
 
-Anthropic interviews often include discussing a research paper. Use this template to prepare.
+Anthropic quizzes often include discussing a research paper. Use this template to prepare.
 
 ## How Paper Discussions Work
 
@@ -127,7 +127,7 @@ Two-phase approach using a constitution:
 ## Practice Tips
 
 1. **Time yourself**: Aim for 5-minute summaries
-2. **Practice aloud**: Interview is verbal
+2. **Practice aloud**: The quiz is verbal
 3. **Be honest**: Say when you don't know
 4. **Have opinions**: They want to see you think
 5. **Connect to Anthropic**: Why does this matter for their mission?

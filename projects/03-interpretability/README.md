@@ -144,7 +144,7 @@ Analyze model behavior on specific inputs:
 - "Which layers are most important for factual recall?"
 - "How do attention patterns change for in-context vs memorized facts?"
 
-## Interview Prep
+## Quiz Prep
 
 After completing this project, you should be able to:
 - Explain probing classifiers and their limitations

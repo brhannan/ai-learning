@@ -118,7 +118,7 @@ Choose ONE to focus on:
 - Difficulty calibration
 - Public leaderboard
 
-## Interview Prep
+## Quiz Prep
 
 After completing this project, you should be able to:
 - Design evaluations for novel capabilities

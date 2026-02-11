@@ -11,7 +11,7 @@ Implement a transformer from scratch in PyTorch (or JAX). This is not optionalâ€
 
 ## Why This Project Matters
 
-- **Interview signal**: "I implemented a transformer from scratch" is powerful
+- **Quiz signal**: "I implemented a transformer from scratch" is powerful
 - **Deep understanding**: You'll understand attention at an intuitive level
 - **Debugging skills**: When things break, you'll know where to look
 - **Foundation**: Everything else builds on this
@@ -113,7 +113,7 @@ See `starter/` directory for:
 - Incorrect layer norm placement (pre vs post)
 - Vanishing gradients without residual connections
 
-## Interview Prep
+## Quiz Prep
 
 After completing this project, you should be able to:
 - Whiteboard the attention mechanism

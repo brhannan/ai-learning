@@ -33,7 +33,7 @@ By the end of this module, you should be able to:
 ## Why This Matters
 
 - Every LLM (GPT, Claude, LLaMA) is built on this architecture
-- Interview questions often probe attention understanding
+- Quiz questions often probe attention understanding
 - Debugging and optimizing models requires this knowledge
 - FlashAttention and other optimizations require understanding the baseline
 
@@ -66,9 +66,9 @@ Your implementation should include:
 3. **Head analysis**: Do different heads learn different patterns?
 4. **Efficiency calculation**: Calculate FLOPs for different sequence lengths
 
-## Interview Prep
+## Quiz Prep
 
-Common interview questions on transformers:
+Common quiz questions on transformers:
 - Walk me through how attention works
 - Why scaled dot-product? Why not just dot-product?
 - What's the computational complexity of self-attention?
